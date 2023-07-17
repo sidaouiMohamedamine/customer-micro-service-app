@@ -13,7 +13,6 @@ import lombok.NoArgsConstructor;
 @Builder
 public class CustomerRequest {
 
-    private Long id;
     private String firstname;
     private String lastname;
     private String email;
